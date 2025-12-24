@@ -1,12 +1,12 @@
-# 📊 Dashboard de Atendimentos por Tipo e Especialidade
+Dashboard de Atendimentos por Tipo e Especialidade
 
 Aplicação desenvolvida em **Streamlit (Python)** para análise de atendimentos hospitalares, com foco em **performance**, **confiabilidade dos indicadores** e **facilidade de uso para o usuário final**.
 
 O dashboard permite analisar grandes volumes de dados (testado com **+400 mil registros**) de forma interativa, com filtros dinâmicos, KPIs, tabelas e gráficos.
 
----
 
-## 🎯 Objetivo do Projeto
+
+Objetivo do Projeto
 
 Disponibilizar uma ferramenta de análise que permita:
 
@@ -16,9 +16,9 @@ Disponibilizar uma ferramenta de análise que permita:
 - Acompanhar a **evolução temporal** dos atendimentos
 - Garantir **consistência dos números**, mesmo com dados duplicados por linha
 
----
 
-## 🧠 Regras de Negócio Implementadas
+
+Regras de Negócio Implementadas
 
 - **Atendimento único:**  
   Todos os cálculos utilizam `CD_ATENDIMENTO` como identificador único  
@@ -42,9 +42,8 @@ Disponibilizar uma ferramenta de análise que permita:
   Acentos e variações de escrita são tratados na lógica,  
   mantendo o texto original no visual.
 
----
 
-## 📁 Estrutura Esperada do CSV
+Estrutura Esperada do CSV
 
 O arquivo CSV deve conter as seguintes colunas:
 
@@ -59,11 +58,9 @@ O arquivo CSV deve conter as seguintes colunas:
 
 > Outras colunas podem existir no arquivo, mas não são utilizadas.
 
----
+Funcionalidades do Dashboard
 
-## 🧩 Funcionalidades do Dashboard
-
-### 🔎 Filtros
+Filtros
 - Período (data inicial e final)
 - Convênio (SUS / Não SUS)
 - Classificação (Ambulatorial, Urgência, Internação)
@@ -72,9 +69,8 @@ O arquivo CSV deve conter as seguintes colunas:
 
 > O filtro de período aceita **1 data ou intervalo**, sem gerar erro para o usuário.
 
----
 
-### 📌 KPIs
+KPIs
 - Total de Atendimentos
 - Média Diária
 - Média Mensal
@@ -82,15 +78,14 @@ O arquivo CSV deve conter as seguintes colunas:
 - Atendimentos Não SUS
 - % de Urgência
 
----
 
-### 📋 Tabela
+
+Tabela
 - Top 7 especialidades com maior volume de atendimentos
 - Percentual sobre o total filtrado
 
----
 
-### 📈 Gráficos
+Gráficos
 - Atendimentos por Especialidade (barra)
 - Distribuição por Classificação (rosca)
 - SUS x Não SUS (rosca)
@@ -98,20 +93,15 @@ O arquivo CSV deve conter as seguintes colunas:
   - **Mensal** quando não há filtro de data
   - **Diária** quando há filtro de período
 
----
 
-## 🚀 Tecnologias Utilizadas
+
+Tecnologias Utilizadas
 
 - **Python**
 - **Streamlit**
 - **Pandas**
 - **Plotly**
 
----
 
-## ▶️ Como Executar Localmente
 
-### 1️⃣ Clonar o repositório
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+
